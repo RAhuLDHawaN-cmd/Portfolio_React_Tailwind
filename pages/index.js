@@ -35,22 +35,10 @@ export default function Home() {
       </Head>
       <main className=" bg-slate-50 px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
         <section className="min-h-screen" id="banner">
-          <nav className="py-10 mb-12 flex justify-evenly dark:text-white">
-            <h1 className="font-burtons text-xl">MatchStick
-                      
-            <div class="bg-white flex space-x-2 p-1 rounded-full justify-center items-center">
- <div
-  className="bg-blue-600 p-2  w-4 h-4 rounded-full animate-bounce blue-circle"
-></div>
-<div
-  class="bg-green-600 p-2 w-4 h-4 rounded-full animate-bounce green-circle"
-></div>
-<div
-  className="bg-red-600 p-2  w-4 h-4 rounded-full animate-bounce red-circle"
-></div>
-</div>
-
-            </h1>
+          <nav className="py-10 mb-12 flex justify-evenly sticky top-0 z-50 bg-slate-50 dark:bg-zinc-900 dark:text-white ">
+            <h1 className="font-burtons text-xl">MatchStick</h1>
+         
+            
             
             <ul className="flex items-center">
               <li>
@@ -79,15 +67,26 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-8xl jumbo">
               Rahul Dhawan
             </h2>
+            <div class="bg-white flex space-x-2 p-1 rounded-full justify-center items-center">
+            <div
+            className="bg-blue-600 p-2  w-4 h-4 rounded-full animate-bounce blue-circle"
+          ></div>
+          <div
+            class="bg-green-600 p-2 w-4 h-4 rounded-full animate-bounce green-circle"
+          ></div>
+          <div
+            className="bg-red-600 p-2  w-4 h-4 rounded-full animate-bounce red-circle"
+          ></div>
+          </div>
             <h3 className="text-2xl py-2 dark:text-gray-200 md:text-3xl marker">
               Developer and Designer.
             </h3>
             
-            <h4 className="text-md desc py-5 leading-8 text-gray-800 mx-auto md:text-xl dark:text-gray-200 max-w-3xl ">
-            Ambition, Dedication, and a 2-year PG in CSE empowered me to gain a valuable skillset in Programming and Technical Support.Aimed to solve real-world challenges.
+            <h4 className="text-md desc py-5 leading-8 max-w-3xl text-gray-800 mx-auto md:text-xl dark:text-gray-200  ">
+            Ambition, Dedication, and years of developement empowered me to gain a serious passion for UI effects, animations, and creating intuitive, dynamic user experiences.
             </h4>
             <h4 className="text-md desc py-5 leading-8 text-gray-800 mx-auto md:text-xl dark:text-gray-200 max-w-3xl ">
-            Join me down below and let's get cracking!
+            Aimed to solve real-world challenges. Let's make something special.!
             </h4>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
          
