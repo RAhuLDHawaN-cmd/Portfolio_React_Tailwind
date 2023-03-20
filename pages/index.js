@@ -36,14 +36,13 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet"></link>
         
       </Head>
-      <main className=" bg-slate-50 px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
+      <main className="bg-white px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
         <section className="min-h-screen" id="banner">
-          <nav className="py-10 mb-12 flex justify-between sticky top-0 z-50 bg-slate-50 dark:bg-zinc-900 dark:text-white ">
+          <nav className="py-10 mb-12 flex justify-evenly sticky top-0 z-50 dark:bg-zinc-900 dark:text-white ">
             <h1 className="font-burtons text-xl">MatchStick</h1>
          
             <ul className="flex items-center">
               <li>
-              
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#services">
@@ -72,7 +71,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-8xl jumbo">
             Rahul Dhawan
             </h2>
-               <div class="bg-slate-50 flex space-x-2 p-1 rounded-full justify-center items-center dark:bg-zinc-900">
+               <div class="bg-white flex space-x-2 p-1 rounded-full justify-center items-center dark:bg-zinc-900">
             <div
             className="bg-blue-600 p-2  w-6 h-6 rounded-full animate-bounce blue-circle"
           ></div>
