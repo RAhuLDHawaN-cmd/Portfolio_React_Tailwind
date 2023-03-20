@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
         <section className="min-h-screen" id="banner">
-          <nav className="py-10 mb-12 flex justify-evenly sticky top-0 z-50 dark:bg-zinc-900 dark:text-white ">
+          <nav className=" bg-white py-10 mb-12 flex justify-evenly sticky top-0 z-50 dark:bg-zinc-900 dark:text-white ">
             <h1 className="font-burtons text-xl">MatchStick</h1>
          
             <ul className="flex items-center">
