@@ -26,14 +26,14 @@ a {
   text-decoration: none;
 }
 .marker{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', arial;
 }
 
 .jumbo{
-  font-family: 'Bangers', cursive;
+  font-family: 'Bangers', arial;
 }
 .heads{
-  font-family: 'Mali', cursive;
+  font-family: 'Mali', arial;
 }
 .desc{
   font-family: 'Roboto', sans-serif;
