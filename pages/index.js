@@ -61,7 +61,7 @@ export default function Home() {
                <a>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl ml-4"/>
+                  className=" cursor-pointer text-2xl ml-2"/>
               </a>
             </li>
             </ul>
