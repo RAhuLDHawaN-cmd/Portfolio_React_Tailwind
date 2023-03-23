@@ -229,6 +229,8 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://chat-worldd.netlify.app">
+
               <Image
                 className="rounded-lg object-cover zoom"
                 width={"100%"}
@@ -236,8 +238,12 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              </a>
+
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1" >
+            <a href="https://chat-worldd.netlify.app">
+
               <Image
                 className="rounded-lg object-cover zoom"
                 width={"100%"}
@@ -245,6 +251,7 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
             <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">
