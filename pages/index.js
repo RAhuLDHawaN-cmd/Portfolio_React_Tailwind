@@ -37,9 +37,9 @@ export default function Home() {
         
       </Head>
       <main className="bg-white px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
-        <section className="min-h-screen" id="banner">
+        <section className="min-h-screen ml-12" id="banner">
           <nav className=" bg-white pt-10 mb-12 flex justify-evenly sticky top-0 z-50 dark:bg-zinc-900 dark:text-white ">
-            <h1 className="font-burtons text-xl ml-12">
+            <h1 className="font-burtons text-xl ">
             <a href="/">MatchStick</a>
             </h1>
          
